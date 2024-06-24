@@ -5,6 +5,7 @@ const mongoose = require("mongoose");
 const methodOverride = require("method-override"); 
 const morgan = require("morgan"); 
 
+
 const app = express();
 mongoose.connect(process.env.MONGODB_URI);
 
@@ -18,6 +19,7 @@ const Blog = require("./models/blogs.js");
 app.use(express.urlencoded({ extended: false }));
 app.use(methodOverride("_method")); 
 app.use(morgan("dev")); 
+app.use(express.static('models'));
 
 // GET /
 app.get("/", async (req, res) => {

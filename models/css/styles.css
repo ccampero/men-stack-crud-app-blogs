@@ -1,0 +1,112 @@
+body, h1, form, input, label, button, table, th, td, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Caveat", cursive;
+    background-color:#89937C;
+    color: #1C3A13;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #592E83;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1C3A13;
+  }
+  
+  header a {
+    text-decoration: none;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  header a:hover {
+    background-color: #0056b3;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #007BFF;
+    color: #fff;
+  }
+  
+  table td {
+    text-align: center;
+  }
+  
+  .table-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .table-actions a, .table-actions button {
+    text-decoration: none;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .table-actions a:hover, .table-actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  form input, form label, form button {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  form input, form button {
+    border: 1px solid #ddd;
+  }
+  
+  form button {
+    background-color: #574F2A;
+    color: #AF9FA5;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #92898A;
+  }
