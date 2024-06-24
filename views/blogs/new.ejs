@@ -1,0 +1,22 @@
+<!-- views/fruits/new.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create a Blog</title>
+  </head>
+  <body>
+    <h1>Create a New Blog!</h1>
+    <form action="/blogs" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" />
+    
+        <label for="isReadyToCreate">Ready to Create?</label>
+        <input type="checkbox" name="isReadyToCreate" id="isReadyToCreate" />
+    
+        <button type="submit">Add Blog</button>
+      </form>
+  </body>
+</html>
